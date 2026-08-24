@@ -17,6 +17,7 @@ export default function ProjectCard({
     <Link
       href={href}
       className="
+      group
     border
     rounded-xl
     p-6
@@ -27,11 +28,14 @@ export default function ProjectCard({
     hover:-translate-y-1
   "
     >
-      <h1>{emoji}</h1>
+      <span className="inline-block text-4xl mb-4">{emoji}</span>
 
       <h2>{titulo}</h2>
 
       <p>{descripcion}</p>
+      <p className="mt-5  text-sm text-gray-500 transition group-hover:translate-x-1">
+        Ver proyecto →
+      </p>
     </Link>
   );
 }
