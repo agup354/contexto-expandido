@@ -27,11 +27,12 @@ export default function Hero() {
         <p className="mt-4 text-sm text-gray-400 max-w-2xl">
           DESARROLLO · APRENDIZAJE · EXPLORACIÓN{" "}
         </p>
-        <h1 className="text-7xl font-extrabold tracking-tight">
+
+        <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight">
           CONTEXTO <br /> EXPANDIDO
         </h1>
 
-        <p className="mt-6 text-2xl text-gray-300 max-w-3xl">
+        <p className="mt-6 text-xl md:text-2xl text-gray-300 max-w-3xl">
           Donde las ideas encuentran un lugar para crecer.
         </p>
 
